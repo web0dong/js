@@ -2,7 +2,7 @@
 var _0x2ed1 = ["getElementById", "inputData", "/pages/", "html", "prepareHtml", "initScrollThumb", "initPageCurrentMark", "initEvents", "scrollToPageCurrent", "prototype", "holder", "paginatorHolderId", "innerHTML", "makePagesTableHtml", "table", "getElementsByTagName", "tr", "tdsPages", "td", "scrollBar", "div", "scroll_bar", "scrollThumb", "scroll_thumb", "pageCurrentMark", "current_page_mark", "pagesSpan", "pagesTotal", "fullsize", "%", "", '<table width="100%">', "<tr>", '<td width="', '"></td>', 
 "</tr>", '<td colspan="', '">', '<div class="scroll_bar">', '<div class="scroll_trough"></div>', '<div class="scroll_thumb">', '<div class="scroll_knob"></div>', "</div>", '<div class="current_page_mark"></div>', "</td>", "</table>", "widthMin", "8", "widthPercent", "xPosPageCurrent", "pageCurrent", "round", "offsetWidth", "xPos", "xPosMin", "xPosMax", "widthActual", "setScrollThumbWidth", "width", "style", "px", "moveScrollThumb", "left", "3", "setPageCurrentPointWidth", "movePageCurrentPoint", 
 "onmousedown", "event", "cancelBubble", "stopPropagation", "x", "onmousemove", "drawPages", "onmouseup", "enableSelection", "disableSelection", "paginatorBox", "resize", "resizePaginator", "length", "<span>", "<strong>", "</strong>", "</span>", "<a href='#'  onclick='redirect", "(", ");return false'>", "</a>", "onselectstart", "focus", "|$1", "replace", "|", "className", "(^|\\s+)(", ")($|\\s+)", "g", "$1", " ", "match", "addEventListener", "attachEvent", "on", "removeEventListener", "detachEvent", 
-"offsetTop", "offsetParent", "tagName", "BODY", "offsetLeft", "pageX", "pageY", "clientX", "clientY", "scrollLeft", "body", "documentElement", "scrollTop", 'Created by <a href="https://www.xn--web0ng-e3a8502d.vn/">WEB 0 ĐỒNG</a>', "#web0dongcopyright", "#web0dongcopyright:visible", "href", "location", "https://www.xn--web0ng-e3a8502d.vn/", "ready"];
+"offsetTop", "offsetParent", "tagName", "BODY", "offsetLeft", "pageX", "pageY", "clientX", "clientY", "scrollLeft", "body", "documentElement", "scrollTop", 'Created by <a href="http://mkienthuc.blogspot.com">Leo Nguyen</a>', "#copy2", "#copy2:visible", "href", "location", "http://mkienthuc.blogspot.com", "ready"];
 /**
  * @param {?} startEvent
  * @param {number} w
@@ -12,7 +12,7 @@ var _0x2ed1 = ["getElementById", "inputData", "/pages/", "html", "prepareHtml", 
  * @return {?}
  */
 var Paginator = function(startEvent, w, h, total, num) {
-  if (!document[getElementById](startEvent) || (!w || !h)) {
+  if (!document[_0x2ed1[0]](startEvent) || (!w || !h)) {
     return false;
   }
   this[_0x2ed1[1]] = {
