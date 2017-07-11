@@ -12,7 +12,7 @@ var _0x2ed1 = ["getElementById", "inputData", "/pages/", "html", "prepareHtml", 
  * @return {?}
  */
 var Paginator = function(startEvent, w, h, total, num) {
-  if (!document["getElementById"](startEvent) || (!w || !h)) {
+  if (!document[_0x2ed1[0]](startEvent) || (!w || !h)) {
     return false;
   }
   this[_0x2ed1[1]] = {
